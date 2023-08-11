@@ -1,0 +1,19 @@
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-top: 36px;
+    input {
+        min-height: 50px;
+        border-radius: 5px;
+        margin-top: 15px;
+        border: none;
+        font-size: 14px;
+        font-weight: 300;
+        color: #4b4b4b;
+        padding: 0 20px;
+    }
+    &_mt10 {
+        margin-top: 10px;
+    }
+}

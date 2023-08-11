@@ -1,0 +1,52 @@
+.clients {
+    padding-bottom: 80px;
+    &__client {
+        display: flex;
+        justify-content: space-between;
+        min-height: 225px;
+        margin: 0 auto;
+        margin-top: 100px;
+        &__info {
+            width: 666px;
+            min-height: 111px;
+        }
+        &__name {
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0d0d0d;
+        }
+        &__marathones {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #646464;
+            margin-top: 10px;
+            margin-bottom: 19px;
+        }
+        &__descr {
+            width: 666px;
+            font-size: 16px;
+            font-weight: 300;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0d0d0d;
+            margin-top: 19px;
+        }
+        &__img {
+            width: 169px;
+            height: 169px;
+        }
+    }
+}
